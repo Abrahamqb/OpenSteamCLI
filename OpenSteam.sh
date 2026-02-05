@@ -53,7 +53,7 @@ while true; do
     echo -e "${BLUE}[3] Install Millennium (Arch Linux ONLY)${NC}"
     echo -e "${BLUE}[4] Exit${NC}"
     echo -n "Select an option [1-4]: "
-    read OPTION
+    read -r OPTION
 
     case $OPTION in
         1)
